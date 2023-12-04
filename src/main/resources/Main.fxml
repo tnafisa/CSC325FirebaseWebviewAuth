@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="com.example.csc325_firebase_webview_auth.modelview.AccessFBView">
+
+
+
+    <top>
+        <MenuBar>
+            <Menu text="Options">
+                <MenuItem text="Sign In" onAction="#switchToSignIn" />
+                <MenuItem text="Sign Up" onAction="#switchToSignUp" />
+                <!-- Other menu items -->
+            </Menu>
+        </MenuBar>
+    </top>
+</BorderPane>
